@@ -1,3 +1,5 @@
+# BMI (Boy Mass Index) Calculator in Python
+
 print("Welcome to the super simple BMI Calculator. To measure your BMI, we are going to need to know a few things.")
 
 height = float(input("Please enter your height in m: "))
