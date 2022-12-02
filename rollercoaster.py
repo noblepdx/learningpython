@@ -13,7 +13,7 @@ if height >= 4:
     print("Youth tickets are $7.")
   elif age >= 45 and <= 55:
     print("You seem to be having a midlife crisis; why don't you go on ahead--free of charge.")
-  else  
+  else:  
     bill = 12
     print("Adult tickets are $12.")
   photo = input("Would you like a photo taken of the moment you shit your pants? Y or N. ")
