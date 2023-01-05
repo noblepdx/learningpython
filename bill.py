@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
-
-# This lesson takes it cue from British executives putting their business cards in a bowl and pulling at random to see who pays the bill. 
-# So this takes input (names) and randomly selects a string from the list, and outputs it.
+# bill randomizer
+# in case you go out to eat with a bunch of rich friends who can afford to get everybody's meal
 
 import random
 

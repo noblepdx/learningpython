@@ -1,4 +1,4 @@
-#Password Generator Project
+#password generator 
 
 import random
 

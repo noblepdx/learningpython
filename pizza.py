@@ -1,7 +1,9 @@
-print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L ")
-add_pepperoni = input("Do you want pepperoni? Y or N ")
-extra_cheese = input("Do you want extra cheese? Y or N ")
+# this could be used with any product that has more than one variable. an excercise in dealing a number of moving variables
+
+print("welcome to noble's pizza deliveries")
+size = input("what size pizza do you want? s, m, or l ")
+add_pepperoni = input("do you want pepperoni? y or n ")
+extra_cheese = input("do you want extra cheese? y or n ")
 
 bill = 0
 

@@ -1,25 +1,27 @@
-print("Welcome to the worst rollercoaster in the universe, the Pants Shitter!")
-height = int(input("What is your height in feet? "))
+# I had a little fun with the titling of this one. as someone having a midlife crisis, i just want someone to pay for me to ride rollercoasters
+
+print("welcome to the worst rollercoaster in the universe, the pants shitter!")
+height = int(input("what is your height in feet? "))
 bill = 0
 
 if height >= 4:
-  print("You can ride the rollercoaster!")
-  age = int(input("And how old are you? "))
+  print("you can ride the rollercoaster")
+  age = int(input("how old are you? "))
   if age < 12:
     bill = 5
-    print("Child tickets are $5.")
+    print("child tickets are $5.")
   elif age <= 18:
     bill = 7
-    print("Youth tickets are $7.")
+    print("youth tickets are $7.")
   elif age >= 45 and <= 55:
-    print("You seem to be having a midlife crisis; why don't you go on ahead--free of charge.")
+    print("you seem to be having a midlife crisis; why don't you go on ahead--free of charge.")
   else:  
     bill = 12
-    print("Adult tickets are $12.")
-  photo = input("Would you like a photo taken of the moment you shit your pants? Y or N. ")
+    print("average adult tickets are $12.")
+  photo = input("would you like a photo taken of the moment you shit your pants? y or n ")
   if photo == "Y":
     bill += 3
 
-  print(f"For the ride and a picture, that will be ${bill}, please.")  
+  print(f"for the ride and a picture, that will be ${bill}, please.")  
 else:
-  print("Sorry, you have to grow taller before you can ride.")
+  print("sorry, you have to grow taller before you can ride.")

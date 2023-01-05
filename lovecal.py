@@ -1,3 +1,5 @@
+# this is completely useless. the formula was found in a beauty magazine and I just decided to make a app for it.
+
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")

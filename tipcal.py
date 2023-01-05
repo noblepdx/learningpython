@@ -1,12 +1,14 @@
-print("Welcome to the tip calculator.")
+# tip calculator. this could be really useful.
 
-bill = float(input("What was the total bill? $"))
-percent = int(input("What percentage would you like to tip? 10, 12, or 15? "))
-people = int(input("How many people split the bill? "))
+print("welcome to noble's tip calculator")
+
+bill = float(input("what was the total bill? $"))
+percent = int(input("what percentage would you like to tip? 15, 20, or 25? "))
+people = int(input("how many people split the bill? "))
 
 total = percent / 100 * bill + bill
 each = total / people
 
 each_fl = "{:.2f}".format(each)
 
-print(f"Each person owes ${each_fl}")
+print(f"each person owes ${each_fl}")
